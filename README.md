@@ -91,7 +91,8 @@ This project is all about different Database Connection
    ##### Firebase(Cloud Platform)
 
    ```
-   //this part needs to be changed with credentials that you will create by by following the given link below
+   //this part needs to be changed with credentials that you will create by following the given link below
+   
    const firebaseConfig = {
    apiKey: "AIzaSyC7ZRsipT3l0KuBk2GMhi1GphKLbWH1jy0",
    authDomain: "nodejs-95ecb.firebaseapp.com",
