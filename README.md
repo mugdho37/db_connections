@@ -29,7 +29,15 @@ This project is all about different Database Connection
 1. For MySql you need to bring following changes database.js file
    You need to create your database first and create an **users** table and
    insert some demo data
-   ` const pool = createPool({ host: "localhost", user: "root", //your username password: "", // your password database: "database_test", //your datebase name connectionLimit: 10 }) `
+   ```
+    const pool = createPool({ 
+    host: "localhost",
+    user: "root", //your username
+    password: "", // your password
+    database: "database_test", //your datebase name
+    connectionLimit: 10 
+    }) 
+   ```
    then command
    ` nodemon database.js `
 2. For MongoDB in index.js file you need to bring following changes
@@ -48,7 +56,6 @@ This project is all about different Database Connection
 
    Download MongoDB (check Install MongoDB compass)
    Link: https://www.mongodb.com/try/download/community
-
    For More Details:-
    Link: https://www.mongodb.com/docs/manual/administration/install-community/
 
